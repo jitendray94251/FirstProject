@@ -10,5 +10,12 @@ public class Day1 {
             newName = newName + Name.charAt(i);
         }
         System.out.println(newName);
+        reverseString();
+    }
+    public static void reverseString(){
+        String city = "Bhopal";
+        Char[] cty = city.toCharArray();
+        int len = cty.;
+
     }
 }
