@@ -15,7 +15,6 @@ public class Day1 {
     public static void reverseString(){
         String city = "Bhopal";
         Char[] cty = city.toCharArray();
-        int len = cty.;
 
     }
 }
