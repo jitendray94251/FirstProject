@@ -13,8 +13,18 @@ public class Day1 {
         reverseString();
     }
     public static void reverseString(){
-        String city = "Bhopal";
-        Char[] cty = city.toCharArray();
-
+        String city = "HYDERABAD";
+        char[] cty = city.toCharArray();
+        char[] revCity= new char[city.length()];
+        int first=0;
+        int last = city.length()-1;
+        System.out.println(last);
+        while(first<=last){
+            revCity[first]=cty[last];
+            revCity[last]=cty[first];
+            first++;
+            last--;
+        }
+        System.out.print(revCity);
     }
 }
